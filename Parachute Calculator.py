@@ -1,7 +1,7 @@
 import math
 r = 1.229
-Cansat_Weight = float(input("Cansat Weight : "))
 weight = input("gram or kilogram : ")
+Cansat_Weight = float(input("Cansat Weight : "))
 if weight == "kilogram":
   Cansat_Weight *= 1000
 elif weight == "gram":
