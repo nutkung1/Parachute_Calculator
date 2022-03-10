@@ -1,6 +1,11 @@
 import math
 r = 1.229
-Cansat_Weight = float(input("Cansat Weight(g) : "))
+Cansat_Weight = float(input("Cansat Weight : "))
+weight = input("gram or kilogram : ")
+if weight == "kilogram":
+  Cansat_Weight *= 1000
+elif weight == "gram":
+  pass
 Kilo = float(Cansat_Weight/1000)
 print(f"Cansat weight = {Kilo} Kilogram")
 Velocity = float(input("Velocity : "))
