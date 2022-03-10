@@ -35,7 +35,6 @@ elif Parachute_Type == "3":
     print(f"Rope range = {rope:.0f} cm")
 else:
     print("Error")
-    
 Mass=Area*55+0.8
 print(f"Parachute Mass = {Mass:.2f} g")
 Rope_Mass = rope*14.4*0.01
