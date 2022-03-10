@@ -1,2 +1,2 @@
 # Parachute_Calculator
-i made this for Thailand Cansat-Rocket Compettition to calculate the Parachute
+I made this for Thailand Cansat-Rocket Competition to calculate the Parachute.
